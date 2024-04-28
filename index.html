@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/7d6ac487d4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-BSsb4JyGhxW22ObE1eCq/8fXfgSh34wVGrPLcvi7+CEk97O3ZEZuBQL5aHb15XnCp8X9etvV77Ty+4sg9tf5Ww==" crossorigin="anonymous" />
+    <title>Harini's Personal Website</title>
+    <!-- connecting css page -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="Images/logo4.png" class="logo">
+                <ul> 
+                    <li> <a href="#header"> Home</a></li>
+                    <li> <a href="#about"> About</a></li>
+                    <li> <a href="#portfolio"> Projects</a></li>
+                    <li> <a href="#contact"> Contact</a></li>
+                    <li> <a href="https://docs.google.com/document/d/149hQwaBSHsqChvHjrSJ1j5oGzeZ8242cujX7tn4D8IQ/edit?usp=sharing" target="_blank"> Resume</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Honors Computer Science and Economics</p>
+                <h1> Hi! I'm <span> Harini Avula,</span><br>student at<br>Northeastern University.</h1> 
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/about pic1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class= "sub-title"> about me</h1>
+                    <p class = "about-writing">Hi there! My name is Harini (she/her), and I grew up 
+                        in St. Paul, Minnesota. I am a currently a honors student studying 
+                        computer science and economics at Northeastern University in Boston, Massachusetts. 
+                        I am passionate about front-end development, data visualization, financial technology, and 
+                        creating user-friendly and accessible technologies. Beyond these interests, 
+                        I enjoy playing tennis and pickleball, cooking and baking, hiking, trying out new restaurants, 
+                        drinking matcha at cute cafes, and reading romance novels.
+                    </p>
+                    <div class= "tab-titles">
+                        <p class= "tab-link active-link" onclick="opentab('skills')"> skills</p>
+                        <p class= "tab-link" onclick="opentab('experience')"> experience</p>
+                        <p class= "tab-link" onclick="opentab('education')"> education</p>
+                    </div>
+                    <div class = "tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li> <span> <i class="fa-brands fa-java" style="font-size: 20px; font-weight: bold";></i> <strong> Java</strong></span><br> Over 3 years of development experience in Java, creating various applications and games.
+                            </li>
+                            <li> <span> <i class="fa-solid fa-code" style="font-size: 20px";></i> <strong>HTML, CSS, JS </strong></span><br> Experience in web development through personal projects and being a developer for Oasis at Northeastern. 
+                            </li>
+                            <li> <span> <i class="fa-brands fa-python" style="font-size: 20px";></i> <strong> Python</strong></span><br> Basic proficiency in Python by participating in camps and online courses.
+                            </li>
+                            <li> <span> <i class="fa-solid fa-file" style="font-size: 20px";></i> <strong> DrRacket</strong></span><br> A year experience working with DrRacket in Intermediate Student Language and Logical Student Language.
+                            </li>
+                            <li> <span> <i class="fa-brands fa-windows" style="font-size: 20px";></i> <strong> Microsoft Office Suite</strong></span><br> Proficient in Microsoft Office Suite with a certification in Microsoft Excel.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class = "tab-contents" id = "experience">
+                        <ul>
+                            <li> <span><strong> Oasis at Northeastern,</strong> September 2023 - Present</span><br> 
+                                ▪ Marketing Spotlight Director: Utilize social media platforms and email communications to  promote club events. <br> 
+                                ▪ Developer: Gained skills in project management and front-end development through weekly workshops.
+                            </li>
+                            <li> <span><strong> AI-Powered VC Deal Sourcing Extern,</strong> March 2024 - April 2024</span><br> 
+                                ▪ Conducted comprehensive market analysis to uncover key growth opportunities in the health and wellness sector and crafted an investment summary highlighting investments’ viability. <br> 
+                                ▪ Leveraged AI tools like ChatGPT and Perplexity AI for research purposes and prompt engineering.<br> 
+                                ▪ See investment summary <a href="https://docs.google.com/presentation/d/1og3HglYtZtrH47SRB4-uYC0AIKSfl3jx4lmIhUWhwbU/edit?usp=sharing">here</a>.</li>
+                            </li>
+                            <li> <span><strong> Disrupt - The FinTech Initiative at Northeastern University,</strong> January 2024 - March 2024</span><br> 
+                                ▪ Pitched a FinTech startup idea to investors and placed 2nd in the start-up competition ($1.5k award).<br> 
+                                ▪ See pitch deck <a href="https://pitch.com/v/nexcap-pitch-updated-vrmmrw">here</a>.</li>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class = "tab-contents" id = "education">
+                        <ul>
+                            <li> <span><strong>Khoury College at Northeastern University, </strong>Boston, MA</span><br> 
+                                ▪ Bachelor of Science in Computer Science and Economics<br> 
+                                ▪ John Martinson Honors Program <br>
+                                ▪ Expected Graduation: May 2027 
+                               </li>
+                               <li> <span><strong>Mounds View High School,</strong> Arden Hills, MN</span><br> 
+                                ▪ Highest Honors <br> 
+                                ▪ Graduated June 2023<br> 
+                        </ul>
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <div class="coming-soon-overlay">
+                <h2>projects and github coming soon!</h2>
+            </div>
+            <h1 class="sub-title1">my projects</h1>
+            <p class = "notice"> code for all projects is available upon request!</p>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer"> 
+                        <h3> Project 1</h3>
+                        <p> Description...</p>
+                        <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer"> 
+                        <h3> Project 2</h3>
+                        <p> Description...</p>
+                        <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer"> 
+                        <h3> Project 3</h3>
+                        <p> Description...</p>
+                        <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href = "#" class="button"> check out my Github! </a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class = "container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p> <i class="fa-regular fa-envelope"></i>avula.ha@northeastern.edu</p>
+                    <p> <i class="fa-solid fa-phone"></i>651-447-3474</p>
+                    <div class="socials">
+                        <a href = "https://www.instagram.com/hariniavula_/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href = "https://www.linkedin.com/in/harini-avula/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href = "#"> <i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name = 'submit-to-google-sheet'> 
+                        <input type = "text" name = "name" placeholder = "name" required>
+                        <input type = "email" name = "email" placeholder = "email address" required>
+                        <input type = "number" name = "phone" placeholder = "phone number" required>
+                        <textarea name="message" rows="6" placeholder="message" required></textarea>
+                        <button type = "send" class = "button button1"> send message</button>
+                    </form>
+                    <span id = "msg">  </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright © Harini Avula 2024. </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link"); 
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab"); 
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxgB8Mi13VG4y8OaoKJ3R9DTGkbN7cKd25OSouKGzhMVO5c7lq-8pcmEcGXDKNI5IN2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            //setTimeout(function(){
+             //   msg.innerHTML = ""
+            //}, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
