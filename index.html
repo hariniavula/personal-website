@@ -18,14 +18,16 @@
     <div id="header">
         <div class="container">
             <nav> 
-                <img src="Images/logo4.png" class="logo">
-                <ul> 
+                <img src="Images/LOGO copy.png" class="logo">
+                <ul id = "sidemenu"> 
                     <li> <a href="#header"> Home</a></li>
                     <li> <a href="#about"> About</a></li>
                     <li> <a href="#portfolio"> Projects</a></li>
                     <li> <a href="#contact"> Contact</a></li>
                     <li> <a href="https://docs.google.com/document/d/149hQwaBSHsqChvHjrSJ1j5oGzeZ8242cujX7tn4D8IQ/edit?usp=sharing" target="_blank"> Resume</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Honors Computer Science and Economics</p>
@@ -110,9 +112,6 @@
      <!-- portfolio -->
      <div id="portfolio">
         <div class="container">
-            <div class="coming-soon-overlay">
-                <h2>projects coming soon!</h2>
-            </div>
             <h1 class="sub-title1">my projects</h1>
             <p class = "notice"> code for all projects is available upon request!</p>
             <div class="work-list">
@@ -192,6 +191,21 @@
         }
 
     </script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+
 
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxgB8Mi13VG4y8OaoKJ3R9DTGkbN7cKd25OSouKGzhMVO5c7lq-8pcmEcGXDKNI5IN2/exec'
