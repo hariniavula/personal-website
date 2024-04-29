@@ -49,6 +49,8 @@ nav ul li {
     display: inline-block;
     margin: 10px 0px;
     list-style: none; 
+    padding: 12px;
+    margin-right: 3px;
 }
 
 nav ul li a {
