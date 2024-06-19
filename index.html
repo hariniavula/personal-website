@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,11 +32,10 @@
             </nav>
             <div class="header-text">
                 <p>Honors Computer Science and Economics</p>
-                <h1> Hi! I'm <span> Harini Avula,</span><br>student at<br>Northeastern University.</h1> 
+                <h1> Hi! I'm <span> Harini Avula,</span><br><span id="typed-text"></span>at <br>Northeastern University.</h1>
             </div>
         </div>
     </div>
-    <!-- about -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -112,13 +112,36 @@
      <!-- portfolio -->
      <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title1">my projects - WORK IN PROGRESS!</h1>
+            <h1 class="sub-title1">my projects - WORK IN PROGRESS</h1>
             <p class = "notice"> code for all projects is available upon request!</p>
             <div class="work-list">
                 <div class="work">
+                    <img src="Images/Ztype.png">
+                    <div class="layer"> 
+                        <h3> ZType Word Game</h3>
+                        <p> CS 2510 project. Java-based typing game based on Phoboslab's ZType game.<br><br>Code available on request!</p>                    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/stock.png">
+                    <div class="layer"> 
+                        <h3> Stock Manager</h3>
+                        <p> CS 3500 project. The Stock Portfolio Manager is a Java application for managing stock portfolios through text-based and GUI interfaces.</p>
+                        <p> <br>Code available on request!</p>
+                    </div>
+                </div>
+                <div class="work">
                     <img src="Images/work-1.png">
                     <div class="layer"> 
-                        <h3> Project 1</h3>
+                        <h3> Project Name</h3>
+                        <p> Description...</p>
+                        <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer"> 
+                        <h3> Project Name</h3>
                         <p> Description...</p>
                         <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
@@ -204,6 +227,20 @@
     }
 
 </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var options = {
+            strings: ["student", "developer", "software engineer", "economist", "creator", "analyst"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        };
+
+        var typed = new Typed("#typed-text", options);
+    });
+</script>
+
 
 
 

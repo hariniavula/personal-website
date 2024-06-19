@@ -198,22 +198,25 @@ nav ul li a:hover::after {
 
 .work-list{
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px; 
     margin-top: 50px;
 }
 
-.work{
+.work {
     border-radius: 10px; 
     position: relative; 
     overflow: hidden;
+    height: 300px; /* Set a fixed height to make the images square */
 }
 
-.work img{
-    width: 100%; 
+.work img {
     border-radius: 10px; 
     display: block;
     transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
 }
 
 .layer h3{
@@ -243,7 +246,7 @@ nav ul li a:hover::after {
 .layer{
     width: 100%; 
     height: 0%; 
-    background: linear-gradient(rgba(255, 255, 255, 0), #c3a28f);    border-radius: 10px; 
+    background:  #c3a28f;
     position: absolute; 
     left: 0; 
     bottom: 0;
@@ -258,18 +261,19 @@ nav ul li a:hover::after {
     transition: height 0.5s;
 }
 
-.layer a{
+.layer a {
     margin-top: 20px;
     color: #c3a28f;
     text-decoration: none; 
-    font-size: 18px; 
-    line-height: 60px; 
+    font-size: 14px; /* Adjusted font size */
+    line-height: 40px; /* Adjusted line height */
     background: white;
-    width: 60px; 
-    height: 60px;
+    width: 40px; /* Adjusted width */
+    height: 40px; /* Adjusted height */
     border-radius: 50%;
     text-align: center;
 }
+
 
 .work:hover img{
     transform: scale(1.1);
