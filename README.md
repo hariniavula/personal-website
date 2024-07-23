@@ -1,1 +1,1 @@
-Hi! This is my first personal project. I used HTML, CSS, and JavaScript to create a personal website. The website showcases my skills, experience, and education, and includes my projects, ways to contact me, and my resume.
+Hi! This is my first personal website. I used HTML, CSS, and JavaScript to create it. Updated website: https://hariniavula.github.io/headstarter-01-portfolio/
